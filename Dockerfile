@@ -1,4 +1,4 @@
-FROM martinussuherman/alpine-tz-ep
+FROM martinussuherman/alpine-tz-ep:test
 
 ENV LABEL_MAINTAINER="Martinus Suherman" \
     LABEL_VENDOR="martinussuherman" \
@@ -24,7 +24,7 @@ RUN apk add --no-cache nginx \
     && ln -sf /dev/stdout /var/log/nginx/access.log \
     && ln -sf /dev/stderr /var/log/nginx/error.log
 
-ENTRYPOINT ["/entrypoint_exec.sh", "nginx"]
+ENTRYPOINT ["/entrypoint_su-exec.sh", "nginx"]
 
 ARG LABEL_VERSION="latest"
 ARG LABEL_BUILD_DATE
