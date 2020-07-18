@@ -25,7 +25,7 @@ RUN apk add --no-cache nginx \
     && ln -sf /dev/stderr /var/log/nginx/error.log
 
 ENTRYPOINT ["/entrypoint_exec.sh"]
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g 'daemon off;'"]
 
 ARG LABEL_VERSION="latest"
 ARG LABEL_BUILD_DATE
