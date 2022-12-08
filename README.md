@@ -2,7 +2,7 @@
 
 ![GitHub](https://img.shields.io/github/license/martinussuherman/alpine-nginx) ![Docker Pulls](https://img.shields.io/docker/pulls/martinussuherman/alpine-nginx) ![Docker Stars](https://img.shields.io/docker/stars/martinussuherman/alpine-nginx)
 
-[![From Alpine](https://img.shields.io/badge/FROM-martinussuherman/alpine:glibc-brightgreen.svg)](https://hub.docker.com/r/martinussuherman/alpine)
+[![From Alpine](https://img.shields.io/badge/FROM-martinussuherman/alpine-brightgreen.svg)](https://hub.docker.com/r/martinussuherman/alpine)
 ---
 
 ## What is this image for ?
