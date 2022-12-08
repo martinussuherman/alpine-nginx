@@ -16,7 +16,7 @@ ENV \
    # additional directories to create + chown (space separated) \
    ECHOWNDIRS="/var/cache/nginx /var/log/nginx /var/tmp/nginx" \
    # additional files to create + chown (space separated) \
-   ECHOWNFILES="/var/log/nginx/access.log /var/log/nginx/error.log /var/run/nginx.pid"
+   ECHOWNFILES="/var/log/nginx/access.log /var/log/nginx/error.log /var/run/nginx.pid" \
    # container timezone \
    TZ=UTC
 
